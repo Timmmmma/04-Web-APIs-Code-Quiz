@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <title>Code Quiz</title>
+</head>
+
+<body>
+  <!--A link to view scores and a timer on the top-->
+  <div class = "scores"><a href = "highScores.html">View Highscores</a></div>
+  <div class = "timer">Time: <span id = "time">0</span></div>
+  
+  <div class = "wrapper">
+    <!--The star interface-->
+    <div class = "starting">
+      <h1>Coding Quiz Challenge</h1>
+      <p>
+        Try to answer the following code-related questions within a limited time, 
+        10 points for each correct answer and your score will be recorded after finishing. 
+        You can try as many times so just do your best.
+      </p>
+      <button id = "start">Start Quiz</button> 
+    </div>
+
+    <!--The quiz interface-->
+    <div class = "askQuestions" hidden = "true">
+      <h2 class = "questions">No question display.</h2>
+      <div class = "choices"></div>
+    </div>
+
+    <!--The ending interface-->
+    <div class = "ending" hidden = "true">
+      <h2>All done!</h2>
+      <p>Your final score is <span id = "finalScore"></span> .</p>
+      <p>
+        Enter initials: <input type="text" id="initials" max="3" />
+        <button id="submit">Submit</button>
+      </p>
+    </div>
+  </div>
+  
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
