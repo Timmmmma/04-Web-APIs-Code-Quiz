@@ -10,7 +10,7 @@ console.log(scoresList);
 
 //List all scores if it is not empty
 if (scoresList !==null) {
-    for (i=0; i< scoresList.length; i++) {
+    for (i=0; i < scoresList.length; i++) {
         var scoresListEl = document.createElement("li");
         scoresListEl.textContent = scoresList[i].initials + "--" + scoresList[i].score;
         highScores.appendChild(scoresListEl);
