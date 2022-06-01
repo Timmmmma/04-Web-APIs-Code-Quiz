@@ -26,8 +26,8 @@ THEN I can save my initials and my score
 ```
 
 ## Link
-Applications deployed site : https://timmmmma.github.io/04-Web-APIs-Code-Quiz/
-Github address : https://github.com/Timmmmma/04-Web-APIs-Code-Quiz
+Applications deployed site : https://timmmmma.github.io/Code-Quiz/
+Github address : https://github.com/Timmmmma/Code-Quiz
 
 ## Screenshot
 ![image](https://github.com/Timmmmma/04-Web-APIs-Code-Quiz/blob/main/assets/image/Code%20Quiz.png)
